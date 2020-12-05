@@ -104,7 +104,7 @@ jobs:
       with:
         vcpkgDirectory: ${{ env.VCPKG_DEST_WIN }}
         vcpkgGitURL: https://github.com/xeiraex/vcpkg.git
-        vcpkgGitCommitId: 787464dc8b4bf7fe4968c011668a9ee954333ffe
+        vcpkgGitCommitId: 002216a257df82420df51ae0ad2acb6491f9d4bd
         setupOnly: true
 
     # Tell vcpkg to only build Release variants of the dependencies
