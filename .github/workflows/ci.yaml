@@ -103,7 +103,8 @@ jobs:
       uses: lukka/run-vcpkg@v4
       with:
         vcpkgDirectory: ${{ env.VCPKG_DEST_WIN }}
-        vcpkgGitCommitId: ${{ env.VCPKG_COMMIT }}
+        vcpkgGitURL: https://github.com/xeiraex/vcpkg.git
+        vcpkgGitCommitId: def711654895be3bb0910c2d9fc29c716bf8f448
         setupOnly: true
 
     # Tell vcpkg to only build Release variants of the dependencies
